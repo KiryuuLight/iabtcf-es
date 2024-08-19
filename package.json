@@ -14,7 +14,6 @@
   "homepage": "https://github.com/chrispaterson/iabtcf",
   "license": "Apache-2.0",
   "scripts": {
-    "prepare": "yarn build",
     "build": "yarn workspaces run build",
     "tidy": "rm -rf modules/**/lib coverage modules/**/coverage .nyc_output modules/**/.nyc_output modules/**/*.log",
     "clean": "rm -rf node_modules modules/**/node_modules && yarn run tidy",
